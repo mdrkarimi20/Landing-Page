@@ -50,7 +50,7 @@
 }
 .icon-send-email:before {
   content: "\e906";
-  color: #f00;
+  color: white;
 }
 .icon-tick:before {
   content: "\e907";
