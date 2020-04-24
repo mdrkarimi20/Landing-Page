@@ -1,0 +1,412 @@
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+width: 100%;
+font-family: poppins;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+    height: 400vh;
+}
+
+.page header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.side-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 45%;
+    height: 100vh;
+    position: relative;
+    left: 100px;
+}
+
+.side-header h2 {
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.side-header h2 span {
+    font-weight: 1000;
+}
+
+.side-header span.get-started {
+    color: white;
+    background-color: #8761da;
+    width: 130px;
+    height: 41px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.page header nav.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100vh;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    width: 40%;
+    position: relative;
+    bottom: 950px;
+    left: 58px;
+    color: white;
+}
+
+.navbar ul li {
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.sign-up-navbar {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: 368px;
+    bottom: 981px;
+}
+
+.sign-up-navbar span {
+    width: 95px;
+    height: 33px;
+    flex-direction: row;
+    color: white;
+    border-radius: 3px;
+}
+
+.sign-up-navbar span.sign {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px
+}
+
+.sign-up-navbar span.sign-up {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px
+}
+
+.navbar img.player{
+    height: 450px;
+    width: 530px;
+    position: relative;
+    bottom: 377px;
+    left: 52px;
+}
+
+.sub-header {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-header ul {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.sub-header ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Rectangle {
+    border: 1px solid #8761da;
+    border-radius: 3px;
+    width: 70px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-worldBook {
+    font-size: 30px;
+}
+
+.icon-biohazard {
+    background-color: #8761da;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.icon-handshake{
+    font-size: 30px;
+}
+
+.icon-person{
+    font-size: 30px;
+}
+
+.sub-header ul li h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-header ul li h6 {
+    margin-bottom: 10px;
+}
+
+.top {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, white, rgb(234, 229, 243));
+    border-radius: 0% 0% 40% 40% / 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top-right {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 69px;
+    right: 84px;
+}
+
+.top-right h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.top-right ul {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.top-right ul li {
+      padding: 5px; 
+}
+
+.icon-tick {
+    position: relative;
+    right: 5px;
+}
+
+.Know {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.Know span.Know-More {
+    width: 150px;
+    height: 40px;
+    background-color: #8761da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 3px;
+}
+
+.Know span.Watch-Video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Know span.icon-playSign {
+    border: 1px solid #8761da;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+
+.center {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center h4 {
+    font-size: 25px;
+}
+
+.center h5 {
+    font-size: 12px;
+}
+
+.center h6 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Tostimonial h6 {
+    position: relative;
+    top: 15px;
+}
+
+.Testimonial-Picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name h5 {
+    position: relative;
+    top: 15px;
+}
+
+.Our-Story h6 {
+    position: relative;
+    top: 15px;
+}
+
+.Our-Story {
+    position: relative;
+    left: 25px;
+}
+
+.bottom {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 30px;
+}
+
+.bottom-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-right h4 {
+    position: relative;
+    right: 104px;
+}
+
+.bottom-right h4 span.icon-bird {
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+
+.bottom-left h4 {
+    position: relative;
+    right: 104px;
+}
+
+.bottom-left h4 span.icon-hand {
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+
+.end {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.end h4.Our-Recent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.end h6.Lorem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.Recent-Post ul {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    position: relative;
+    left: 109px;
+}
+
+.Recent-Post ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.Recent-Post ul li h4.title {
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+.Recent-Post ul li h6.sub-title {
+    position: relative;
+    top: 30px;
+    font-size: 10px;
+}
