@@ -413,7 +413,7 @@ font-family: poppins;
 
 .email {
     width: 100%;
-    height:100vh;
+    height:120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -423,29 +423,135 @@ font-family: poppins;
 .send-email {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 84%;
     height: 40vh;
     background-color: #8761da;
-    background-image: url("./img/shape1.png");
+    background-image: url('../img/shape1.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
     color: white;
     border-radius: 3px;
 }
 
+.send-email img {
+    transform: scaleY(-1);
+    position: relative;
+    left: 650px;
+    bottom: 85px;
+}
+
+.send-email p {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    right: 300px;
+}
+
 .send-email input {
-    border:1px solid white;
-    width: 200px;
-    height: 30px;
+    border: 1px solid #eaeaea;
+    width: 250px;
+    height: 40px;
     background-color: #8761da;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
+    position: relative;
+    right: 135px;
+    color: #eaeaea;
+}
+
+::placeholder {
+    font-family: poppins;
+    color: #eaeaea;
+    position: relative;
+    left: 20px;
 }
 
 .icon-send-email {
-    width: 30px;
-    height: 30px;
-    border:1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #eaeaea;
+    border-left: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    right: 135px;
+}
+
+.Footer {
+    width: 83%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #8761da;
+    border-bottom: 1px solid #8761da;
+    position: relative;
+    left: 113px;
+}
+
+.Footer h5 {
+    font-size: 15px;
+}
+
+.Quick-Links h4 {
+    position: relative;
+    bottom: 30px;
+}
+
+.Quick-Links ul {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.Quick-Links ul li {
+      padding: 5px; 
+}
+
+.Pages h4 {
+    position: relative;
+    bottom: 30px;
+}
+
+.Pages ul {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.Pages ul li {
+      padding: 5px; 
+}
+
+.Legal-Stuff h4 {
+    position: relative;
+    bottom: 30px;
+}
+
+.Legal-Stuff ul {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.Legal-Stuff ul li {
+      padding: 5px; 
+}
+
+.Design {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 10;
+}
+
+.Design span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: 10;
 }
