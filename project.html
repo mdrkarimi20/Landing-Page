@@ -9,17 +9,19 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Dashboard</title>
+    <title>Landing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./icons/style.css">    
+    <link rel="stylesheet" href="./icons/style.css">
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <script src="./node_modules/aos/dist/aos.js"></script>    
 
 </head>
 
 <body>
     <div class="page">
         <header>
-        	 <div class="side-header">
+        	 <div class="side-header" data-aos="fade-left">
             <h2>A guide to <span>Rocky</span><br>
             mountain vacations</h2>
             <h4>Lorem ipsum dolor sit amet consectetur<br>
@@ -30,9 +32,9 @@
             	voluptates! Delectus, amet!</h4>
             <span class="get-started">get started</span>
             </div>
-        	<nav class="navbar">
+        	<nav class="navbar" data-aos="zoom-in">
         		<img src="./img/Oval.png" alt="Oval" class="Oval">
-            	<img src="./img/player.jpg" alt="player" class="player">
+            	<img src="./img/player.jpg" alt="player" class="player" data-aos="fade-up">
                     <ul>
                       <li>Home</li>
                       <li>News</li>
@@ -46,7 +48,7 @@
             </nav>
             </header>
             <div class="sub-header">
-                    <ul>
+                    <ul data-aos="zoom-in">
                       <li>
                           <div class="Rectangle">
                           	<span class="icon-worldBook"></span>
@@ -78,8 +80,8 @@
                     </ul>
             </div>
             <div class="top">
-            	<img src="./img/illustrator.png" alt="illustrator" width="500" height="500">
-            	<div class="top-right">
+            	<img src="./img/illustrator.png" alt="illustrator" width="500" height="500" data-aos="fade-right">
+            	<div class="top-right" data-aos="fade-right">
             	<h3>Learn with Protips</h3>
             	<ul>
             		<li><span class="icon-tick"></span>Beyond The Naked Eye</li>
@@ -97,7 +99,7 @@
             	</div>
             	
         </div>
-        <div class="center">
+        <div class="center"data-aos="zoom-in">
         	<div class="Tostimonial">
         	<h4>Tostimonial</h4>
         	<h6>Lorem ipsum dolor sit amet</h6>
@@ -117,7 +119,7 @@
         	</div>
         </div>
         <div class="bottom">
-        	<div class="bottom-right">
+        	<div class="bottom-right" data-aos="fade-right">
         		<h4><span class="icon-bird"></span>Who are we?</h4>
         		<h6>Lorem ipsum dolor sit amet consectetur<br>
             	adipisicing elit. Magni, rerum! Voluptatibus<br>
@@ -131,7 +133,7 @@
             	tempora vel accusantium rerum aliquid iste<br>
             	quibusdam temporibus similique</h6>
         	</div>
-        	<div class="bottom-left">
+        	<div class="bottom-left" data-aos="fade-left">
         		<h4><span class="icon-hand"></span>Who are we?</h4>
         		<h6>Lorem ipsum dolor sit amet consectetur<br>
             	adipisicing elit. Magni, rerum! Voluptatibus<br>
@@ -147,10 +149,10 @@
 
         </div>
         <div class="end">
-               <h4 class="Our-Recent">Our Recent Post</h4>
-               <h6 class="Lorem">Lorem ipsum dolor sit amet consectetur</h6>
+               <h4 class="Our-Recent" data-aos="fade-right">Our Recent Post</h4>
+               <h6 class="Lorem" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur</h6>
                <div class="Recent-Post">
-               <ul>
+               <ul data-aos="zoom-in">
                	    <li>
                        <img src="./img/image1.png" alt="image1" width="330px">
                           <h4 class="title">First click tests</h4>
@@ -171,7 +173,7 @@
         </div>
 
         <div class="email">
-        	<div class="send-email">
+        	<div class="send-email" data-aos="fade-left">
         		<img src="./img/shape1.png" alt="shape1">
         		<p>Lorem ipsum dolor sit amet<br>consectetur</p>
         		<input type="text" placeholder="Enter your email">
@@ -179,7 +181,7 @@
             </div>
         </div>
 
-        <footer class="Footer">
+        <footer class="Footer" data-aos="zoom-in">
         	<h5>Lorem ipsum dolor sit amet consectetur<br>
             	adipisicing elit. Magni, rerum! Voluptatibus<br>
             	tempora vel accusantium rerum</h5>
@@ -213,6 +215,7 @@
         </footer>
         <h5 class="Design">Design by<span>@ehsan</span></h5>
     </div>
+    <script src="./js/animation.js"></script>
 </body>
 
 </html>
